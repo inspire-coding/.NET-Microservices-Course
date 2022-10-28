@@ -27,14 +27,14 @@ namespace CommandsService.Controllers
         {
             System.Console.WriteLine($"--> Hit GetCommandsForPlatform: {platformId}");
 
-            if(!_repository.PlaformExits(platformId))
+            if(!_repository.PlaformExists(platformId))
             {
                 return NotFound();
             }
 
             var commands = _repository.GetCommandsForPlatform(platformId);
 
-            return Ok(_mapper.Map<IEnumerable<CommandCreateDto>>(commands));
+            return Ok(_mapper.Map<IEnumerable<CommandReadDto>>(commands));
         }
 
         [HttpGet("{commandId}", Name = "GetCommandForPlatform")]
@@ -42,7 +42,7 @@ namespace CommandsService.Controllers
         {
             System.Console.WriteLine($"--> Hit GetCommandForPlatform: {platformId} / {commandId}");
 
-            if(!_repository.PlaformExits(platformId))
+            if(!_repository.PlaformExists(platformId))
             {
                 return NotFound();
             }
@@ -62,7 +62,7 @@ namespace CommandsService.Controllers
         {
             System.Console.WriteLine($"--> Hit CreateCommandForPlatform: {platformId}");
 
-            if(!_repository.PlaformExits(platformId))
+            if(!_repository.PlaformExists(platformId))
             {
                 return NotFound();
             }

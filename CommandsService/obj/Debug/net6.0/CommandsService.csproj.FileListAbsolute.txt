@@ -1,5 +1,4 @@
 C:\Users\Pazmandi Peter\Desktop\Trash\C#\Microservices\.NET Microservices Course\CommandsService\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\Pazmandi Peter\Desktop\Trash\C#\Microservices\.NET Microservices Course\CommandsService\bin\Debug\net6.0\appsettings.json
 C:\Users\Pazmandi Peter\Desktop\Trash\C#\Microservices\.NET Microservices Course\CommandsService\bin\Debug\net6.0\CommandsService.exe
 C:\Users\Pazmandi Peter\Desktop\Trash\C#\Microservices\.NET Microservices Course\CommandsService\bin\Debug\net6.0\CommandsService.deps.json
 C:\Users\Pazmandi Peter\Desktop\Trash\C#\Microservices\.NET Microservices Course\CommandsService\bin\Debug\net6.0\CommandsService.runtimeconfig.json
@@ -35,3 +34,5 @@ C:\Users\Pazmandi Peter\Desktop\Trash\C#\Microservices\.NET Microservices Course
 C:\Users\Pazmandi Peter\Desktop\Trash\C#\Microservices\.NET Microservices Course\CommandsService\obj\Debug\net6.0\CommandsService.pdb
 C:\Users\Pazmandi Peter\Desktop\Trash\C#\Microservices\.NET Microservices Course\CommandsService\obj\Debug\net6.0\CommandsService.genruntimeconfig.cache
 C:\Users\Pazmandi Peter\Desktop\Trash\C#\Microservices\.NET Microservices Course\CommandsService\obj\Debug\net6.0\ref\CommandsService.dll
+C:\Users\Pazmandi Peter\Desktop\Trash\C#\Microservices\.NET Microservices Course\CommandsService\bin\Debug\net6.0\appsettings.Production.json
+C:\Users\Pazmandi Peter\Desktop\Trash\C#\Microservices\.NET Microservices Course\CommandsService\bin\Debug\net6.0\RabbitMQ.Client.dll
